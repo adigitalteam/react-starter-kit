@@ -1,0 +1,25 @@
+
+.animate-block {
+    transition: transform 0.5s ease-in-out !important;
+}
+
+.hidden-block-left {
+    transform: translateX(-100%) !important;
+}
+
+.hidden-block-right {
+    transform: translateX(100%) !important;
+}
+
+.open-block {
+    transform: translateX(0%) !important;
+}
+.admin-panel-logo-vertical{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top:10px;
+}
